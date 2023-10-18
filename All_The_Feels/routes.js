@@ -6,7 +6,7 @@ const requestListener = (req, res) => {
 
     if (url === "/") {
         res.setHeader("Content-Type", 'text/html');
-        res.write("<html>");
+        res.write("<html lang='en'>");
         res.write("<head><title>All The Feels</title></head>");
         res.write('<body><h1>Hey there, welcome to your mood tracker!</h1><p>Enter your mood below and hit send to save your mood.</p>' +
             '<form action = "/mood" method="POST"><input type = "text" name="mood"><button type="submit">Send</button></body>');
