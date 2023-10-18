@@ -12,7 +12,7 @@ To set up and run this project on your local machine, follow these steps:
 
 ### Installation
 
-2Clone this repository to your local machine:
+2. Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/kagerer19/mood-tracker-nodejs.git
